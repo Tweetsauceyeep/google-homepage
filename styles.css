@@ -46,7 +46,7 @@ input {
     
 
 button {
-    color:rgb(87, 87, 87);
+    color:rgb(77, 77, 77);
     background-color:#f8f9fa;
     min-width: 54px;
     height: 36px;
@@ -59,10 +59,43 @@ button {
 button:hover {
     border-color: rgb(216, 214, 214);
     box-shadow: 0px 1px 2px rgb(190, 190, 190);
+    cursor:-webkit-grab;
 }
 .centerbuttons {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1.5rem;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    right: 20px;
+    top: 18px;
+    
+}
+
+.navitems {
+    display: inline;
+}
+.navtext {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#appsmenu {
+    top: 200px;
+    display: inline;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    padding: 5px;
+    
 }

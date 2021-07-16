@@ -43,6 +43,26 @@ input {
     width: 20px;
     height: 20px;
 }
-.googlebuttons {
     
+
+button {
+    color:rgb(87, 87, 87);
+    background-color:#f8f9fa;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0.5rem;
+    
+}
+button:hover {
+    border-color: rgb(216, 214, 214);
+    box-shadow: 0px 1px 2px rgb(190, 190, 190);
+}
+.centerbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
 }

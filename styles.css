@@ -90,7 +90,7 @@ button:hover {
 }
 
 #appsmenu {
-    top: 200px;
+    margin-top: 10px;
     display: inline;
     color: rgba(0,0,0,0.87);
     text-decoration: none;

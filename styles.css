@@ -73,8 +73,17 @@ button:hover {
     margin: 0;
     padding: 0;
     position: absolute; 
-    right: 20px;
-    top: 18px;
+    right: 112px;
+    top: 20px;
+    
+}
+.navbaricons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    right: 18px;
+    top: 2px;
     
 }
 
@@ -88,6 +97,9 @@ button:hover {
     font-size: 14px;
     padding: 5px;
 }
+.navtext:hover {
+    text-decoration: underline;
+}
 
 #appsmenu {
     margin-top: 10px;
@@ -98,4 +110,9 @@ button:hover {
     font-size: 14px;
     padding: 5px;
     
+}
+#gaharapfp {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
 }

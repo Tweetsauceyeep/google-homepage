@@ -1,4 +1,4 @@
 # google-homepage
-google homepage project for The Odin Project
+Google Homepage project for The Odin Project
 
-Note: Add Nav bar and Footer
+- Use CSS and HTML to recreate the google home page.s
